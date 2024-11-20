@@ -1,0 +1,29 @@
+name: calculadora_red
+description: "A new Flutter project."
+publish_to: 'none'  # Eliminar si deseas publicar en pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/calc.png"  # Ruta correcta del ícono (en carpeta assets)
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/hoja.png  # Ruta de la imagen de fondo
